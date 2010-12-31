@@ -1,0 +1,44 @@
+App-ZofCMS-Plugin-FeatureSuggestionBox
+
+The module is a plugin for App::ZofCMS that gives you a "feature suggestion
+box". It is a form where a user can type up a suggestion and, once submitted,
+that suggestion will arrive in your email inbox.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc App::ZofCMS::Plugin::FeatureSuggestionBox
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-ZofCMS-Plugin-FeatureSuggestionBox
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/App-ZofCMS-Plugin-FeatureSuggestionBox
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/App-ZofCMS-Plugin-FeatureSuggestionBox
+
+    Search CPAN
+        http://search.cpan.org/dist/App-ZofCMS-Plugin-FeatureSuggestionBox/
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2010 'Zoffix Znet'
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+

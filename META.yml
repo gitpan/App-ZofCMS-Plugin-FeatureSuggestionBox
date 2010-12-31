@@ -1,0 +1,26 @@
+---
+abstract: 'ZofCMS plugin that provides a feature suggestion box for your site'
+author:
+  - "'Zoffix Znet' <'zoffix@cpan.org'>"
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-ZofCMS-Plugin-FeatureSuggestionBox
+provides:
+  App::ZofCMS::Plugin::FeatureSuggestionBox:
+    file: lib/App/ZofCMS/Plugin/FeatureSuggestionBox.pm
+    version: 0.0101
+requires:
+  App::ZofCMS::Plugin::Base: 0.0106
+  HTML::Entities: 1.35
+  HTML::Template: 2.9
+  MIME::Lite: 3.027
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.0101

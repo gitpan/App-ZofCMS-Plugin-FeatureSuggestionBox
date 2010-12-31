@@ -1,0 +1,25 @@
+use strict;
+use warnings;
+use Data::Dumper;
+
+{
+    body => \'index.tmpl',
+    title => 'Test',
+
+    plugins => [
+        qw/FeatureSuggestionBox/,
+    ],
+
+    plug_feature_suggestion_box => {
+        to => 'cpan@zoffix.com',
+
+        no_identification   => 0,
+        from                => 'Zoffix Znet',
+        subject             => 'Feature Suggestion',
+        submit_button       => q|<input type="submit" class="submit_button"|
+                                    . q| value="Send">|,
+    },
+
+};
+
+__END__
