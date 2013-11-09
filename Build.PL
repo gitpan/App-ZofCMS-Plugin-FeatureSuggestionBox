@@ -18,7 +18,9 @@ my $builder = Module::Build->new(
         'HTML::Template'            => 2.9,
         'HTML::Entities'            => 1.35,
         'MIME::Lite'                => 3.027,
+        perl                        => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-FeatureSuggestionBox-*' ],
     create_makefile_pl => 'traditional',
 );

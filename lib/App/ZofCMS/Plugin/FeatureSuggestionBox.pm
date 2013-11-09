@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::FeatureSuggestionBox;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 use base 'App::ZofCMS::Plugin::Base';
 use HTML::Template;
@@ -233,6 +233,8 @@ END_HTML
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
